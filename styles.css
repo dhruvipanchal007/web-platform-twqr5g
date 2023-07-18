@@ -9,41 +9,49 @@ body {
   background-color: white;
 }
 
-.home-page{
+.home-page {
   background-image: url(https://templatemo.com/templates/templatemo_512_moonlight/img/first_bg.jpg);
   background-size: cover;
 }
-.home-menu{
+.home-menu {
   max-width: 300px;
   background-color: rgba(0, 0, 0, 0.5);
-  display: block;
 }
-.bi{
-color: #fff;
-text-decoration: none;
-padding: 20px;
+.bi {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
 }
-.logo{
+.logo {
   margin-top: 45px;
   padding: 0 20px;
 }
-.nav-menu{
+.nav-menu {
   margin-top: 60px;
   text-align: left;
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
-}
-.navbar{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;}
+.navbar {
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
-  margin: 25px 0;
+  font-size: 1rem;
+  padding: 20px 20px;
+  margin-bottom: 20px;
 }
-.active{
+.active {
   background-color: #fff;
   color: black;
 }
-.bi-active{
+.bi-active {
+  color: black;
+}
+.navbar:hover{
+  background-color: #fff;
+  color: black;
+}
+.navbar ~.bi-active:hover{
   color: black;
 }
