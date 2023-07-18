@@ -14,6 +14,36 @@ body {
   background-size: cover;
 }
 .home-menu{
+  max-width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+.bi{
+color: #fff;
+text-decoration: none;
+padding: 20px;
+}
+.logo{
+  margin-top: 45px;
+  padding: 0 20px;
+}
+.nav-menu{
+  margin-top: 60px;
+  text-align: left;
   display: flex;
   flex-direction: column;
+  margin-left: 40px;
+}
+.navbar{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 25px 0;
+}
+.active{
+  background-color: #fff;
+  color: black;
+}
+.bi-active{
+  color: black;
 }
