@@ -63,7 +63,13 @@ body {
   max-width: 900px;
   margin-left: auto;
   padding: 200px 150px;
+  display: flex;
 }
+.pic{
+  max-width: 150px;
+  height: 150px;
+}
+
 .content-heading{
   color: #fff;
   font-size: 36px;
