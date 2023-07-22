@@ -66,8 +66,8 @@ body {
   max-width: 950px;
   margin-left: auto;
   height: 550px;
-  overflow-y: scroll;
   padding: 30px;
+  overflow: hidden;
 }
 .entries-box {
   display: grid;
