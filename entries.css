@@ -8,17 +8,18 @@ body {
   color: black;
   background-color: white;
 }
-.about-page {
-  background-image: url(https://templatemo.com/templates/templatemo_512_moonlight/img/second_bg.jpg);
+
+.entries-page {
+  background-image: url(https://templatemo.com/templates/templatemo_512_moonlight/img/third_bg.jpg);
   background-size: cover;
   padding-top: 80px;
+}
+.intro {
+  display: flex;
 }
 .home-menu {
   max-width: 250px;
   background-color: rgba(0, 0, 0, 0.5);
-}
-.intro {
-  display: flex;
 }
 .bi {
   color: #fff;
@@ -60,22 +61,23 @@ body {
 .navbar ~ .bi-active:hover {
   color: black;
 }
-
-.about-box {
+.entries-content {
   background-color: rgba(0, 0, 0, 0.5);
   max-width: 950px;
   margin-left: auto;
-  display: flex;
   height: 550px;
   overflow-y: scroll;
 }
-.about-text-content {
-  padding: 60px;
-  text-align: left;
+.entries-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.about-heading {
+.entries-text {
+  padding: 30px;
+}
+.entries-heading-1 {
   color: #fff;
-  font-size: 36px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -84,12 +86,12 @@ body {
   padding-bottom: 10px;
   font-family: 'open-sans', sans-serif;
 }
-.about-para {
+.entries-quisque-para {
   color: #fff;
   font-size: 13px;
   letter-spacing: 0.5px;
   line-height: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-weight: 300;
 }
 .main-btn {
@@ -102,10 +104,6 @@ body {
   font-weight: 300;
   padding: 8px 15px;
   margin-right: 10px;
-}
-.bg-white {
-  background-color: #fff;
-  color: black;
 }
 .footer {
   color: #fff;
