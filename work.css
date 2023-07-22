@@ -66,7 +66,29 @@ body {
   max-width: 950px;
   margin-left: auto;
   height: 550px;
-  overflow: hidden;
+  padding: 15px;
+}
+.work-intro{
+  position: absolute;
+  
+}
+.work-heading{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.work-para{
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  color: #fff;
 }
 
 .footer {
