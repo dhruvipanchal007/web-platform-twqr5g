@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.work-page {
+  background-image: url(https://templatemo.com/templates/templatemo_512_moonlight/img/fourth_bg.jpg);
+  background-size: cover;
+  padding-top: 80px;
+}
+.intro {
+  display: flex;
+}
+.home-menu {
+  max-width: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bi {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+.logo {
+  padding-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-menu {
+  margin-top: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  margin-left: 40px;
+}
+.navbar {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.active {
+  background-color: #fff;
+  color: black;
+}
+.bi-active {
+  color: black;
+}
+.navbar:hover {
+  background-color: #fff;
+  color: black;
+}
+.navbar ~ .bi-active:hover {
+  color: black;
+}
+.work-content{
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 950px;
+  margin-left: auto;
+  height: 550px;
+  overflow: hidden;
+}
+
+.footer {
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.footer em {
+  color: #aaa;
+  font-style: normal;
+  font-size: 13px;
+}
