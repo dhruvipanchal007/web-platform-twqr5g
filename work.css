@@ -69,28 +69,35 @@ body {
   padding: 15px;
 }
 .work-intro{
-  position: absolute;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.work-heading{
+
+.hover-content{
+  padding: 30px;
+  max-width: 300px;
+}
+
+
+.hover-heading{
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.5px;
   border-bottom: 1px solid #fff;
+  display: inline-block;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  display: inline-block;
+  margin-top: 0;
 }
-.work-para{
+.hover-para{
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   line-height: 22px;
   color: #fff;
 }
-
 .footer {
   color: #fff;
   font-size: 13px;
