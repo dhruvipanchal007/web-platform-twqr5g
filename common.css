@@ -1,3 +1,7 @@
+:root {
+  --text-color: white;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +10,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: var(--text-color);
 }
 
 .intro {
@@ -17,7 +21,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .bi {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   padding: 20px;
 }
@@ -35,7 +39,7 @@ body {
   margin-left: 40px;
 }
 .navbar {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 14px;
   padding: 20px 10px;
@@ -43,24 +47,24 @@ body {
   font-weight: 300;
 }
 .active {
-  background-color: #fff;
+  background-color: var(--text-color);
   color: black;
 }
 .bi-active {
   color: black;
 }
 .navbar:hover {
-  background-color: #fff;
+  background-color: var(--text-color);
   color: black;
 }
 .navbar:hover .bi {
   color: black;
 }
 .main-btn {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   text-transform: uppercase;
-  border: 2px solid #fff;
+  border: 2px solid var(--text-color);
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 300;
@@ -68,12 +72,12 @@ body {
   margin-right: 10px;
 }
 .bg-white {
-  background-color: #fff;
+  background-color: var(--text-color);
   color: black;
 }
 
 .footer {
-  color: #fff;
+  color: var(--text-color);
   font-size: 13px;
   text-align: center;
   margin-top: 30px;
