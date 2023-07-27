@@ -12,9 +12,9 @@
   display: flex;
   height: 550px;
   overflow-y: scroll;
+  padding: 60px;
 }
 .about-text-content {
-  padding: 60px;
   text-align: left;
 }
 .about-heading {
