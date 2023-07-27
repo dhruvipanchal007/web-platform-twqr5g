@@ -58,7 +58,7 @@ body {
   background-color: #fff;
   color: black;
 }
-.navbar ~ .bi-active:hover {
+.navbar  .bi-active:hover {
   color: black;
 }
 .entries-content {

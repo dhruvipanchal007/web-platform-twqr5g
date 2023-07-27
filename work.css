@@ -58,7 +58,7 @@ body {
   background-color: #fff;
   color: black;
 }
-.navbar ~ .bi-active:hover {
+.navbar .bi-active:hover {
   color: black;
 }
 .work-content {
@@ -74,6 +74,9 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
 }
+.images {
+  position: relative;
+}
 .photo {
   width: 280px;
   height: 190px;
@@ -83,13 +86,16 @@ body {
   padding: 30px;
   top: 0;
   visibility: hidden;
-  transition: all ease 0.8s;
+  opacity: 0;
+  transition: all 0.8s;
   background-color: rgba(0, 0, 0, 0.95);
   height: 190px;
   max-width: 280px;
 }
-.photo:hover ~ .image-hover-content {
+.photo:hover ~ .image-hover-content,
+.image-hover-content:hover {
   visibility: visible;
+  opacity: 1;
 }
 
 .hover-heading {
