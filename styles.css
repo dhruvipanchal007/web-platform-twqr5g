@@ -58,8 +58,8 @@ body {
   background-color: #fff;
   color: black;
 }
-.navbar ~ .bi-active:hover {
-  color: black;
+.navbar:hover ~ .bi {
+ color: black;
 }
 .content-box {
   background-color: rgba(0, 0, 0, 0.5);
