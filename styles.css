@@ -58,7 +58,7 @@ body {
   background-color: #fff;
   color: black;
 }
-.navbar:hover ~ .bi {
+.navbar:hover .bi {
  color: black;
 }
 .content-box {
