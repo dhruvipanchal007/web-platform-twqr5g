@@ -67,7 +67,7 @@ body {
   margin-left: auto;
   height: 550px;
   padding: 30px;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 .entries-box {
   display: grid;

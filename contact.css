@@ -68,7 +68,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 550px;
-  overflow: scroll;
+overflow-y: scroll;
 }
 .map {
   padding: 50px 0 50px 50px;
